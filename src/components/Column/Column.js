@@ -11,7 +11,7 @@ class Column extends React.Component {
       //console.log('titleprops', this.props.title);
     return (
         <section className={styles.component}>
-          <h3 className={styles.title} > {this.props.title} ></h3>
+          <h3 className={styles.title} > {this.props.title}</h3>
         </section>
     )
   }
