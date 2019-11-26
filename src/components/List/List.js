@@ -17,11 +17,12 @@ class List extends React.Component {
     columns: PropTypes.array,
     image: PropTypes.string,
     columns: PropTypes.array
+}
 
+    static defaultProps = {
+    description: settings.defaultListDescription,
 }
-static defaultProps = {
-  description: settings.defaultListDescription,
-}
+
 addColumn(title){
   this.setState(state => (
     {
@@ -38,7 +39,6 @@ addColumn(title){
   ));
 }
   render() {
-
     return (
         <section className={styles.component}>
           <Hero titleText={this.props.title}
@@ -58,5 +58,4 @@ addColumn(title){
     )
   }
 }
-
 export default List;

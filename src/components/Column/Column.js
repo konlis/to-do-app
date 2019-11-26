@@ -37,7 +37,6 @@ addCard(title){
 }
 
   render() {
-      //console.log('state', this.props)
     return (
 
         <section className={styles.component}>
