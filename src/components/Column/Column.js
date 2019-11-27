@@ -18,6 +18,7 @@ static propTypes = {
 
 static defaultProps = {
   description: settings.defaultColumnIcon,
+  icon: settings.defaultColumnIcon,
 }
 
 render() {
