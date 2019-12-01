@@ -10,9 +10,20 @@ export const settings = {
     defaultText: 'Search...',
     icon: 'search',
   },
+  pages: {
+    home: '/',
+    info: '/info',
+    faq: '/faq',
+  },
+  nav: {
+    homePage: 'Home',
+    infoPage: 'Info',
+    faqPage: 'FAQ',
+  },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
 };
+
 
 export const pageContents = {
   title: 'My first React app',
@@ -141,11 +152,27 @@ const cards = [
   },
 ];
 
+const faq = {
+  title: 'This is FAQ?',
+  description: 'Yes',
+  imageFaq: 'https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?cs=srgb&dl=ask-blackboard-chalk-board-chalkboard-356079.jpg&fm=jpg',
+  titleFaq: 'Frequently asked questions',
+};
+
+const info = {
+  title: 'Check it out',
+  description: 'This app help you to remember things.',
+  imageInfo: 'https://images.pexels.com/photos/704767/pexels-photo-704767.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
+  titleText: 'Say whaaat?',
+};
+
 const initialStoreData = {
   app: {...pageContents},
   lists: [...lists],
   columns: [...columns],
   cards: [...cards],
+  info: {...info},
+  faq: {...faq},
 };
 
 export default initialStoreData;
