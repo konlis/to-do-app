@@ -90,6 +90,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: 'Things to remember!',
+    description: 'If my brain dissapoint me.',
+    image: 'https://blog.daveasprey.com/wp-content/uploads/2018/09/How-to-Hack-Your-Mental-Energy-to-Be-More-Productive_header-752x401.jpg',
+  },
+  {
+    id: 'list-3',
+    title: 'Things to check!',
+    description: 'Are you sure?',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlbgdlw_p71UN5olpv6Ih5XqrCNBS3L3ULVpsJskP4WE5Uj1132Q&s',
+  },
 ];
 
 const columns = [
