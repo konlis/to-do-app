@@ -155,14 +155,14 @@ const cards = [
 const faq = {
   title: 'This is FAQ?',
   description: 'Yes',
-  imageFaq: 'https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?cs=srgb&dl=ask-blackboard-chalk-board-chalkboard-356079.jpg&fm=jpg',
+  imageFaq: 'https://serialesrebrnegoekranu.pl/wp-content/uploads/2019/06/FAQ-Cz%C4%99%C5%9B%C4%87-2-Plakat-732x380.jpg',
   titleFaq: 'Frequently asked questions',
 };
 
 const info = {
   title: 'Check it out',
   description: 'This app help you to remember things.',
-  imageInfo: 'https://images.pexels.com/photos/704767/pexels-photo-704767.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
+  imageInfo: 'https://intarchmed.com/wp-content/uploads/2019/11/about1.png',
   titleInfo: 'Say whaaat?',
 };
 

@@ -4,7 +4,7 @@ import Container from '../Container/Container';
 import Hero from '../Hero/Hero.js';
 
 const Info = (props) => (
-  console.log(props),
+  //console.log('infoProps',props),
   
   <Container>
     <Hero titleText={props.titleInfo}
