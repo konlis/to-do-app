@@ -4,6 +4,7 @@ import Info from '../Info/Info';
 import Faq from '../FAQ/FAQ.js';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import MainLayout from '../MainLayout/MainLayout.js';
+//import { AnimatedSwitch } from 'react-router-transition';
 
 const App = () => (
   <BrowserRouter>

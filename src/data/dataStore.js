@@ -163,7 +163,7 @@ const info = {
   title: 'Check it out',
   description: 'This app help you to remember things.',
   imageInfo: 'https://images.pexels.com/photos/704767/pexels-photo-704767.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
-  titleText: 'Say whaaat?',
+  titleInfo: 'Say whaaat?',
 };
 
 const initialStoreData = {

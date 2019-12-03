@@ -4,6 +4,8 @@ import Container from '../Container/Container';
 import Hero from '../Hero/Hero.js';
 
 const Info = (props) => (
+  console.log(props),
+  
   <Container>
     <Hero titleText={props.titleInfo}
       homeImage={props.imageInfo} />
