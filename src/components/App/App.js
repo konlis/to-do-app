@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './App';
+import styles from './App.scss';
 import Home from '../Home/HomeContainer';
 import Info from '../Info/InfoContainer';
 import Faq from '../FAQ/FAQContainer';

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Home';
+import styles from './Home.scss';
 import List from '../List/ListContainer.js';
 import PropTypes from 'prop-types';
 import Search from '../Search/SearchContainer.js';
