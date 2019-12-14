@@ -6,7 +6,6 @@ const mapStateToProps = (state, props, searchString) => ({
   cards: getCardsForSearch(state, props.match.params.searchString ),
   filteredCards: state.cards.filter(card => card.title.includes(searchString)),
 });
-//console.log(mapStateToProps.filteredCards);
 
 const mapDispatchToProps = (dispatch) => ({
   changeSearchString: newSearchString => dispatch(createAction_changeSearchString(newSearchString)),
