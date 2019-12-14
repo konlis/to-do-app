@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import Faq from './Faq';
+import Faq from './FAQ.js';
 
 const mapStateToProps = state => ({
   titleFaq: state.faq.titleFaq,
