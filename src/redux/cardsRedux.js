@@ -11,10 +11,10 @@ const createActionName = name => `app/${reducerName}/${name}`;
 
 // action types
 export const ADD_CARD = createActionName('ADD_CARD');
-
+export const CHANGE_SEARCH_STRING = createActionName('CHANGE_SEARCH_STRING');
 // action creators
 export const createAction_addCard = payload => ({ payload, type: ADD_CARD });
-
+export const createAction_changeSearchString = payload =>({payload, type:CHANGE_SEARCH_STRING});
 // reducer
 export default function reducer(state = [], action = {}) {
   switch (action.type) {
