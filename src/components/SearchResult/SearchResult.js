@@ -23,9 +23,7 @@ class SearchResult extends React.Component {
                 
               {cards.map(cardData => (
                 <Card key={cardData.id} {...cardData} />
-                
               ))}
-              
               
             </div>
           </section>
@@ -33,7 +31,6 @@ class SearchResult extends React.Component {
       );
     }
     static propTypes = {
-      cards: PropTypes.array,
       columns: PropTypes.array,
       lists: PropTypes.array,
     };

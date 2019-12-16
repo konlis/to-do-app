@@ -1,18 +1,14 @@
 import { connect } from 'react-redux';
-import { getCardsForSearch, createAction_changeSearchString } from '../../redux/cardsRedux.js';
+import { getCardsForSearch} from '../../redux/cardsRedux.js';
+import { createAction_changeSearchString } from '../../redux/searchStringRedux';
 import SearchResult from './SearchResult.js';
 
-const mapStateToProps = (state, props, searchString) => {
-  const cards = getCardsForSearch(state, props.match.params.searchString);
-  console.log('cards', cards);
-  const filteredCards = state.cards.filter(card => card.title.includes(searchString));
-  console.log('filteredcards', filteredCards);
+
+const mapStateToProps = (state, props) => ({
+  cards: getCardsForSearch(state, props.match.params.searchString),
   
-  return {
-    cards: cards,
-    filteredCards: filteredCards,
-  };
-};
+
+});
 
 const mapDispatchToProps = (dispatch) => ({
   changeSearchString: newSearchString => dispatch(createAction_changeSearchString(newSearchString)),
