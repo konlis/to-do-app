@@ -3,3 +3,7 @@
   max-width: 1400px;
   margin: 0 auto;
 }
+.links a {
+  color: lightskyblue;
+  text-decoration: none;
+}
